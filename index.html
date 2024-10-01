@@ -115,17 +115,6 @@
         gsap.from("#about", { duration: 1, y: 50, opacity: 0, delay: 1 });
         gsap.from("#projects", { duration: 1, y: 50, opacity: 0, delay: 1.5 });
         gsap.from("#contact", { duration: 1, y: 50, opacity: 0, delay: 2 });
-
-        // Animate projects on hover
-        const projects = document.querySelectorAll(".project");
-        projects.forEach(project => {
-            project.addEventListener("mouseover", () => {
-                gsap.to(project, { scale: 1.05, duration: 0.3 });
-            });
-            project.addEventListener("mouseout", () => {
-                gsap.to(project, { scale: 1, duration: 0.3 });
-            });
-        });
     </script>
 </body>
 </html>
