@@ -4,6 +4,7 @@ body {
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
         }
         header {
             background-color: #333;
